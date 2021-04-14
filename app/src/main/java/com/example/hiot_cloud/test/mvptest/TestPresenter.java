@@ -3,8 +3,11 @@ package com.example.hiot_cloud.test.mvptest;
 import com.example.hiot_cloud.base.BasePresenter;
 import com.example.hiot_cloud.test.mvptest.model.User;
 
+import javax.inject.Inject;
+
 public class TestPresenter extends BasePresenter<TestView> {
 
+    @Inject
     public TestPresenter() {
     }
 

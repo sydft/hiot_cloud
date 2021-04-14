@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/hiotapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.HIOTCloud">
-        <activity android:name=".test.mvptest.testMVPActivity">
+        <activity android:name=".test.mvptest.TestMVPActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
