@@ -16,6 +16,11 @@ import javax.inject.Inject;
 public class TestLifeCycleActivity extends AppCompatActivity {
 
     private static final String TAG = "TestLifeCycleActivity";
+
+    public TestLifeCycleActivity() {
+        super();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate");
@@ -29,7 +34,6 @@ public class TestLifeCycleActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         Button btnFinish = findViewById(R.id.btn_finish);
         btnFinish.setOnClickListener(new View.OnClickListener() {
             @Override

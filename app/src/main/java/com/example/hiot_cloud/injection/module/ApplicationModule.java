@@ -19,10 +19,9 @@ import android.app.Application;
 import android.content.Context;
 
 
-//import com.huatec.hiot_cloud.App;
+//import com.example.hiot_cloud.App;
 import com.example.hiot_cloud.injection.ApplicationContext;
 import com.example.hiot_cloud.App;
-import com.example.hiot_cloud.injection.ApplicationContext;
 
 import javax.inject.Singleton;
 
