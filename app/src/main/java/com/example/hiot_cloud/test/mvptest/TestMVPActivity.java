@@ -1,6 +1,5 @@
 package com.example.hiot_cloud.test.mvptest;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,7 +7,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.hiot_cloud.R;
-import com.example.hiot_cloud.base.BaseActivity;
+import com.example.hiot_cloud.ui.base.BaseActivity;
 import com.example.hiot_cloud.test.mvptest.model.User;
 
 import javax.inject.Inject;
@@ -36,6 +35,9 @@ public class TestMVPActivity extends BaseActivity<TestView, TestPresenter> imple
             }
         });
     }
+
+    //显示fragment
+
 
     @Override
     public TestPresenter createPresenter() {
